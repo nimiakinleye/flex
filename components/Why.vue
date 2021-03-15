@@ -14,12 +14,7 @@
         </div>
         <div class="text-center my-12 font-semibold text-4xl">6 Ways To <span class="text-orange-500">Flex</span></div>
         <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:gap-x-12 lg:bg-gray-100 rounded-lg py-4 md:px-8 items-center">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 bg-gray-100 rounded-lg p-4">
-            <HowTo />
-            <HowTo />
-            <HowTo />
-            <HowTo />
-            <HowTo />
+          <div class="">
             <HowTo />
           </div>
           <div class="self-center"><img class="imgWidth" src="../assets/images/phone-mock.png" alt=""></div>

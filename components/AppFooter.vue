@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="my-bg container rounded-lg mb-12">
-      <div class="text-center sm:text-left container py-4 sm:grid sm:grid-cols-4">
+    <div class="my-bg container md:rounded-lg mb-12">
+      <div class="text-left container py-4 grid grid-cols-2 sm:grid sm:grid-cols-4">
         <div>
           <div class="font-bold mb-3">Products</div>
           <div class="text-white font-semibold">

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="md:mt-32">
-      <div class="flex flex-col-reverse md:flex-row items-center md:justify-between bg-hand-pattern bg-repeat rounded-3xl py-12">
+      <div class="flex flex-col-reverse md:px-3 md:flex-row items-center md:justify-between banner-height bg-hand-pattern bg-repeat rounded-3xl py-12">
         <div class="text-center md:text-left">
           <div class="font-semibold text-5xl">We Think You Should</div>
           <div class="font-semibold text-5xl text-orange-500">Flex</div>
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="justify-self-center md:self-end img-width md:-mb-4">
+        <div class="justify-self-center md:self-end img-width ">
           <!-- <img
             class="rounded-xl"
             src="../assets/images/flex.jpg"
@@ -83,10 +83,37 @@ export default {
 </script>
 
 <style>
-.banner-height{
-  height: 24rem;
+@media (min-width : 767px) {
+  .banner-height{
+  max-height: 26rem;
+  margin-top: 15rem;
+  background-color: #49BEB7;
+  background-image: url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg'),
+                    url('../static/bg/hand.svg');
+  background-repeat: no-repeat;
+  background-position: 0 top,
+                       300px top,
+                       150px center,
+                       600px top,
+                       450px center,
+                       900px top,
+                       600px bottom,
+                       750px center,
+                       300px bottom,
+                       900px bottom,
+                       0 bottom;
+}
 }
 .img-width{
-  width: 18rem;
+  width: 20rem;
 }
 </style>
