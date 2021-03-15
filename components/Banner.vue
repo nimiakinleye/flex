@@ -76,7 +76,7 @@ export default {
   },
   data () {
     return {
-      slide: ['../images/flex.jpg', '../images/backpack.jpg', '../images/family.jpg']
+      slide: ['../images/flex.jpg', '../images/1.jpg', '../images/2.jpg']
     }
   }
 }
