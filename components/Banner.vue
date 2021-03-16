@@ -4,7 +4,7 @@
       <div class="flex flex-col-reverse md:px-3 md:flex-row items-center md:justify-between banner-height bg-hand-pattern bg-repeat rounded-3xl py-12">
         <div class="text-center md:text-left">
           <div class="font-semibold text-5xl">We Think You Should</div>
-          <div class="font-semibold text-5xl text-orange-500">Flex</div>
+          <div class="font-semibold text-5xl text-orange-500 font-bold">FLEX</div>
           <div class="font-normal mb-5">
             Your No. 1 financial management tool to help you plan,
             <br />
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="justify-self-center md:self-end img-width ">
+        <div class="justify-self-center md:self-center img-width ">
           <!-- <img
             class="rounded-xl"
             src="../assets/images/flex.jpg"
@@ -76,7 +76,7 @@ export default {
   },
   data () {
     return {
-      slide: ['../images/flex.jpg', '../images/1.jpg', '../images/2.jpg']
+      slide: ['../images/flex.jpg']
     }
   }
 }
@@ -114,6 +114,6 @@ export default {
 }
 }
 .img-width{
-  width: 20rem;
+  width: 25rem;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-1 md:grid-cols-2 gap-x-12 bg-gray-100 rounded-lg p-4"
+    class="grid grid-cols-1 md:grid-cols-2 gap-x-12 rounded-lg p-4"
   >
     <div class="my-5">
       <svg

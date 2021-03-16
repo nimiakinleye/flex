@@ -22,8 +22,11 @@
               </div>
               <div class="my-8">
                 <select v-model="newUser.source" name="" id="">
-                  <option value="Instagram">Instagram</option>
                   <option value="Facebook">Facebook</option>
+                  <option value="Twitter">Twitter</option>
+                  <option value="Whatsapp">Whatsapp</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Others">Others</option>
                 </select>
               </div>
               <button @click.prevent="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold p-2 rounded-md">
@@ -38,6 +41,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data () {
     return {
@@ -61,8 +65,10 @@ export default {
       } else if (this.newUser.source === '') {
         this.message = 'Please tell us how you got to know about us'
       } else{
+        axios.post('https://flex-e3041-default-rtdb.firebaseio.com/users.json', {
+        user: this.newUser
+        })
         this.message = 'Application Sent!';
-        console.log(this.newUser)
       }
     }
   }
