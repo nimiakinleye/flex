@@ -13,7 +13,7 @@
           and also find fun tourists attraction, events and more.
         </div>
         <div class="text-center my-12 font-semibold text-4xl">6 Ways To <span class="text-orange-500">Flex</span></div>
-        <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:gap-x-12 lg:bg-gray-100 rounded-lg py-4 md:px-8 items-center">
+        <div class="flex my-bg flex-col-reverse lg:grid lg:grid-cols-2 lg:gap-x-12 rounded-lg py-4 md:px-8 items-center">
           <div class="">
             <HowTo />
           </div>
